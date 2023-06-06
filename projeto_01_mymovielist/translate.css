@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #020E13;
+    --ligth-primary: #ECF9FD;
+    --ligthest-color: #f0c808;
+    --secondary-color: #dd1c1a;
+    --light-secondary: #FDF0B0;
+    --ligth-tertiary: #774936;
+}
+
+
+.translatorMessageInHeader {
+    color: var(--ligth-primary);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+
+.divSelects {
+   display: flex; 
+   gap: 5px;
+   justify-content: space-between;
+}
+
+select {
+    width: 50%;
+    padding: 3px;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.divTextareas {
+    display: flex;
+    gap:  5px;
+    border-radius: 3px;
+}
+
+textarea {
+    outline: none;
+    padding: 3px;
+    font-size: 14px;
+    width: 50%;
+    border-radius: 3px;
+    resize: none;
+}
+
+
+.baseTranslation {
+    width: 30%;
+}
+
+.baseTranslation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+#btnTranslate {
+    background-color: var(--primary-color);
+    padding: 0.3rem 1rem;
+    width: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px #000;
+    border: 1px solid var(--light-secondary);
+    color: var(--ligth-primary);
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+#btnTranslate:focus, #btnTranslate:hover {
+    background-color: var(--ligthest-color);
+    color: var(--ligth-primary);
+}
